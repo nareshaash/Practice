@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0dip" android:textColor="@color/maroon" android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="Easy Gold Convertor" />
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/gold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.12">
+        <Button android:textStyle="bold" android:id="@id/button1" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="Pure to Percentage" android:includeFontPadding="true" android:layout_centerHorizontal="true" />
+        <Button android:textStyle="bold" android:id="@id/button2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="Percentage to Pure" android:layout_below="@id/button1" android:layout_alignLeft="@id/button1" />
+        <Button android:textStyle="bold" android:id="@id/button3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="Percentage to Percentage" android:layout_below="@id/button2" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

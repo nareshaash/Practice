@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: gold.calc.app.1.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+packageInfo:
+  cur_package: gold.calc.app
+  orig_package: gold.calc.app
+compressionType: false
